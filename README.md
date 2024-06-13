@@ -15,9 +15,9 @@ Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 �
 上為圖五——ePWM 模組的同步連接圖
 ## TMS320F28335 ePWM的Action-Qualifier子模組簡介
 會觸發ePWM的Action-Qualifier子模組所設定的動作。
-• Set High:
+• Set High:  
    將輸出 EPWMxA 或 EPWMxB 設定為高電位。
-• Clear Low:
+• Clear Low:  
    將輸出 EPWMxA 或 EPWMxB 設定為低電位。
 • Toggle:
 如果 EPWMxA 或 EPWMxB 目前輸出位於高電位，則將輸出切換為低電 位。如果 EPWMxA 或 EPWMxB 目前輸出位於低電位，則將輸出切換為高電位。
