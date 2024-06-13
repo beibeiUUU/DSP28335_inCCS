@@ -27,4 +27,12 @@ Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 �
   將輸出 EPWMxA 和 EPWMxB 保持在與目前設定相同的電位。
   圖六表示了Action-Qualifier子模組在PWM波型上的動作圖示說明  
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/TMS320F28335%20AQ%E5%AD%90%E6%A8%A1%E7%B5%84%E5%9C%A8PWM%E6%B3%A2%E5%9E%8B%E4%B8%8A%E7%9A%84%E5%8B%95%E4%BD%9C%E5%9C%96%E7%A4%BA.png)  
-上為圖六——ePWM 模組的同步連接圖
+上為圖六——ePWM 模組的同步連接圖  
+## TMS320F28335 ePWM的Dead-Band Generator子模組簡介  
+為了不讓IGBT同時導通，我們必須使用Dead-Band Generator子模組，啟動上升延遲delay to rising edges (RED) 和 下降延遲delay to falling edges (FED)。  
+•Active high complementary (AHC): EPWMxB is inverted.  
+•DBRED(Dead Band Rising Edge Delayed)  
+•DBFED(Dead Band Falling Edge Delayed)  
+![image](https://github.com/beibeiUUU/DSP28335/blob/main/TMS320F28335%20DeadBand%E5%AD%90%E6%A8%A1%E7%B5%84%E5%8F%AF%E7%94%A8%E7%9A%84%E6%A5%B5%E6%80%A7%E9%81%B8%E9%A0%85.png)  
+上為圖七——DeadBand子模組可用的極性選項
+
