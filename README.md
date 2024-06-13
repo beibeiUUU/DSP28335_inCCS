@@ -9,4 +9,5 @@
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/TMS320F28335%20GPIO%E8%BC%B8%E5%87%BA%E8%A8%AD%E5%AE%9A%E8%85%B3%E4%BD%8D%E5%9C%96.jpg)  
 上為圖四
 ## TMS320F28335 ePWM的TimeBase Counter Synchronization子模組簡介  
-Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 每個 ePWM 模組都有一個同步輸入訊號 (EPWMxSYNCI) 和一個同步輸出訊號 (EPWMxSYNCO)。第一個 ePWM1模組的輸入同步訊號來自外部接腳。 其餘 ePWM 模組的同步連接如圖 2 4所示
+Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 每個 ePWM 模組都有一個同步輸入訊號 (EPWMxSYNCI) 和一個同步輸出訊號 (EPWMxSYNCO)。  
+第一個 ePWM1模組的輸入同步訊號來自外部接腳。 其餘 ePWM 模組的同步連接如圖 2 4所示
