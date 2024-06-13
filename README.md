@@ -4,7 +4,7 @@
 
 # 2. 下載C2000 ware  
 [C2000 ware下載點](https://www.ti.com/tool/C2000WARE/)  
-`請注意必須註冊帳號，完成註冊後才可申請下載，並在下載時勾選civil`
+`請注意必須註冊帳號，完成註冊後才可申請下載，並在申請下載時勾選civil`
 - [x] civil
 
 # TMS320F28335 ePWM模組簡介
