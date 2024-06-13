@@ -1,5 +1,6 @@
 # 1.下載Code Composer Studio
 [Code Composer Studio下載點](https://www.ti.com/tool/CCSTUDIO#downloads)  
+`本作者使用的Code Composer Studio版本為v11`
 
 # 2. 下載C2000 ware  
 [C2000 ware下載點](https://www.ti.com/tool/C2000WARE/)  
