@@ -10,6 +10,6 @@
 上為圖四
 ## TMS320F28335 ePWM的TimeBase Counter Synchronization子模組簡介  
 Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 每個 ePWM 模組都有一個同步輸入訊號 (EPWMxSYNCI) 和一個同步輸出訊號 (EPWMxSYNCO)。  
-第一個 ePWM1模組的輸入同步訊號來自外部接腳。 其餘 ePWM 模組的同步連接如圖 2 4所示
+第一個 ePWM1模組的輸入同步訊號來自外部接腳。 其餘 ePWM 模組的同步連接如圖五所示
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/ePWM%20%E6%A8%A1%E7%B5%84%E7%9A%84%E5%90%8C%E6%AD%A5%E9%80%A3%E6%8E%A5%E5%9C%96.png)  
 上為圖五
