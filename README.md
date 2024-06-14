@@ -50,6 +50,9 @@ Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 �
 上為圖七——DeadBand子模組可用的極性選項
 
 # 5.計算的公式和作者設計程式時的想法
+
+\frac{主頻率}{2}
+
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/dsp28335%20%E8%A8%AD%E5%AE%9A%E6%99%82%E7%9A%84%E6%83%B3%E6%B3%95.png)
 
 # 6.參考資料
