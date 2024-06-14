@@ -52,7 +52,9 @@ Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 �
 # 5.計算的公式和作者設計程式時的想法
 
 SYSCLKOUT = $\frac{主頻率}{2}$ <br>
-TBPRD(計數器上限) = $\frac{SYSCLKOUT}{目標頻率}$ = $\frac{75MHz}{21Khz}$ = 3571 <br>
+<br>
+TBPRD(計數器上限) = $\frac{SYSCLKOUT}{目標頻率}$ = $\frac{75MHz}{21Khz}$ = 3571 <br> 
+<br>
 f (目標頻率)= $\frac{SYSCLKOUT}{TBPRD}$ = $\frac{75MHz}{3571}$ = 21KHz <br>
 
 
