@@ -57,3 +57,6 @@ Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 �
 
 # 6.參考資料
 [tms320X2833X Technical Reference Manual](https://www.ti.com.cn/cn/lit/ug/sprui07/sprui07.pdf?ts=1710720155586#page=293&zoom=100,0,97)
+
+# 7.
+\forall
