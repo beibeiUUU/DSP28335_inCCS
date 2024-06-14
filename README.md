@@ -55,24 +55,23 @@ SYSCLKOUT = $\frac{主頻率}{2}$ ...(1)<br>
 <br>
 TBPRD(計數器上限) = $\frac{SYSCLKOUT}{目標頻率}$ = $\frac{75MHz}{21Khz}$ = 3571 ...(2) <br> 
 <br>
-f (目標頻率) = $\frac{SYSCLKOUT}{TBPRD}$ = $\frac{75MHz}{3571}$ = 21KHz <br>
+f (目標頻率) = $\frac{SYSCLKOUT}{TBPRD}$ = $\frac{75MHz}{3571}$ = 21KHz ...(3)<br>
 <br>
-T (目標週期) = $\frac{TBPRD}{SYSCLKOUT}$ = $\frac{3571}{75MHz}$ = 47.61𝜇𝑠
+T (目標週期) = $\frac{TBPRD}{SYSCLKOUT}$ = $\frac{3571}{75MHz}$ = 47.61𝜇𝑠 ...(4)<br>
 <br>
-剩餘工作週期(rdc) = 50%-(duty cycle)% <br>
+剩餘工作週期(rdc) = 50%-(duty cycle)% ...(5) <br>
 <br>
-DBRED = TBPRD* rdc % = 214 <br>
+DBRED = TBPRD* rdc % = 214 ...(6)<br>
 <br>
-DBFED = TBPRD* rdc % = 214 <br>
+DBFED = TBPRD* rdc % = 214 ...(7)<br>
 <br>
-Deadband time = $\frac{(DBFED or DBFED) *T}{TBPRD}$ <br>
+Deadband time = $\frac{(DBFED or DBFED) *T}{TBPRD}$ ...(8)<br>
 <br>
-可以根據上面的
+可以根據上面的8個公式和下面的理論圖推得想要的頻率和duty cycle和deadtime。
 <br>
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/dsp28335%20%E8%A8%AD%E5%AE%9A%E6%99%82%E7%9A%84%E6%83%B3%E6%B3%95.png)
 
 # 6.參考資料
 [tms320X2833X Technical Reference Manual](https://www.ti.com.cn/cn/lit/ug/sprui07/sprui07.pdf?ts=1710720155586#page=293&zoom=100,0,97)
 
-# 7.
-\forall
+
