@@ -4,7 +4,8 @@
 
 # 2. 下載C2000 ware  
 [C2000 ware下載點](https://www.ti.com/tool/C2000WARE/)  
-`請注意必須註冊帳號，完成註冊後才可申請下載，並在申請下載時勾選civil`
+`請注意必須註冊帳號，完成註冊後才可申請下載，並在申請下載時勾選civil`  
+![image](https://github.com/beibeiUUU/DSP28335/blob/main/Ti%20%E7%94%B3%E8%AB%8B%E4%B8%8B%E8%BC%89%E7%85%A7%E7%89%87-2%202024-06-14%2012_21_44.jpg)
 - [x] civil
 
 # 3. 建立工作環境
