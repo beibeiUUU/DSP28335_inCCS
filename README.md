@@ -55,9 +55,9 @@ SYSCLKOUT = $\frac{主頻率}{2}$ <br>
 <br>
 TBPRD(計數器上限) = $\frac{SYSCLKOUT}{目標頻率}$ = $\frac{75MHz}{21Khz}$ = 3571 <br> 
 <br>
-f (目標頻率)= $\frac{SYSCLKOUT}{TBPRD}$ = $\frac{75MHz}{3571}$ = 21KHz <br>
+f (目標頻率) = $\frac{SYSCLKOUT}{TBPRD}$ = $\frac{75MHz}{3571}$ = 21KHz <br>
 <br>
-T (目標週期) =$\frac{TBPRD}{SYSCLKOUT}$
+T (目標週期) = $\frac{TBPRD}{SYSCLKOUT}$ =
 
 
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/dsp28335%20%E8%A8%AD%E5%AE%9A%E6%99%82%E7%9A%84%E6%83%B3%E6%B3%95.png)
