@@ -53,6 +53,7 @@ Time-base synchronization scheme連接TMS320F28335上的所有 ePWM 模組。 �
 
 SYSCLKOUT = $\frac{主頻率}{2}$  
 TBPRD(計數器上限) = $\frac{SYSCLKOUT}{目標頻率}$ = $\frac{75MHz}{21Khz}$ = 3571
+123<br>132<br>123
 
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/dsp28335%20%E8%A8%AD%E5%AE%9A%E6%99%82%E7%9A%84%E6%83%B3%E6%B3%95.png)
 
