@@ -67,8 +67,9 @@ DBFED = TBPRD* rdc % = 214 ...(7)<br>
 <br>
 Deadband time = $\frac{(DBFED or DBFED) *T}{TBPRD}$ ...(8)<br>
 <br>
-可以根據上面的8個公式和下面的理論圖推得想要的頻率和duty cycle和deadtime。
+可以根據上面的8個公式和下面的理論圖推得想要的頻率和duty cycle和deadtime。<br>
 <br>
+
 ![image](https://github.com/beibeiUUU/DSP28335/blob/main/dsp28335%20%E8%A8%AD%E5%AE%9A%E6%99%82%E7%9A%84%E6%83%B3%E6%B3%95.png)
 
 # 6.參考資料
